@@ -20,3 +20,13 @@ val sumVar = (a:Int, b:Int) => {a+b}
 
 var sumVar2 : (Int,Int) => Int = (a:Int, b:Int) => {a+b}
 sumVar(2,3)
+
+val list : List[Int] = List(1,2,3)
+
+for(i <- list) {
+  println(i)
+}
+
+//Tuples
+
+val (a,b,c) = (12,13,"Ankit")
